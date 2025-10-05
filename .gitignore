@@ -1,0 +1,97 @@
+# =====================================
+# .gitignore para terreneitor
+# Autor: Mauricio Latorre
+# =====================================
+
+# Carpetas y archivos personales
+tmp/
+*.tmp
+priv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv / poetry
+.python-version
+poetry.lock
+
+# Editor / IDE config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Compiled binary artifacts
+*.pyd
+*.dll
+*.dylib
+*.exe
+
+# Data / outputs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Numpy / scientific
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+log.txt
+
+# Temporary / scratch files
+*.tmp
+*.bak
+*.swp
+*~
